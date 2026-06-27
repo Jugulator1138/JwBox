@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require_relative 'port_calculator'
+
 # EnclosureConfig — parameters that describe a build.
 EnclosureConfig = Struct.new(
   :type,              # :sealed, :ported, :bandpass_4th
