@@ -1,0 +1,13 @@
+# Output files
+test_output/
+output/
+*.skp
+*.sb
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Ruby
+*.gem
+.bundle/
