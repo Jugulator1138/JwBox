@@ -1,2 +1,3 @@
 $LOAD_PATH.unshift(File.join(__dir__, 'lib'))
-require 'jwbox'
+require_relative 'jwbox'
+JwBox.run
